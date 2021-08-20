@@ -34,6 +34,7 @@ public record UserResource(UserService userService) {
     }
 
     @DeleteMapping(path = "/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
     public Mono<Void> delete(@PathVariable("id") String id) {
         return userService.delete(id);
     }
