@@ -4,7 +4,7 @@ It is a simple project demonstrating the use of Spring Boot WebFlux with Java 16
 
 ### Records ###
 
-Accondingly the specification, the records are a new kind of class in Java that help us to model plain data with less ceremony than normal classes. Records provide a new way to create class with some automatic members: public accessors methods, canonical constructor, equals and hashcode method and toString method. Follow the specification: <a href="https://openjdk.java.net/jeps/395" target="_blank">JEP 395</a>
+Accordingly to the specification, the records are a new kind of class in Java that helps us to model plain data with less ceremony than normal classes. Records provide a new way to create classes with some automatic members: public accessors methods, canonical constructor, equals and hashcode method, and toString method. Follow the specification: <a href="https://openjdk.java.net/jeps/395" target="_blank">JEP 395</a>
 
 <p align="center">
     <img src="https://github.com/welsoncarvalho/sb-record/blob/master/images/diagram.png" alt="Class Diagram">
